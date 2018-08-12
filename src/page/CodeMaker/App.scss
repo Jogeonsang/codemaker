@@ -1,0 +1,194 @@
+.CodeMaker {
+  height: 95vh;
+  overflow: scroll;
+  input {
+    color: black;
+  }
+  select {
+    color: black;
+  }
+  textarea {
+    color: black;
+  }
+  p {
+    margin-left: 5px;
+    font-weight: 400;
+  }
+  h1 {
+    text-align: center;
+    margin: 4rem 0;
+    color: #25b0b7;
+  }
+  h3 {
+    margin-left: 2.5%;
+  }
+  h4 {
+    margin-left: 2.7%;
+  }
+  &-codeName {
+    padding-top: 0.5rem;
+    color: #5c5f66;
+    background-color: #f6f6f6;
+    width: 80vw;
+    max-width: 110rem;
+    margin: 0 auto;
+    border-radius: 5px 5px 0 0;
+    input {
+      width: 45vw;
+      max-width: 70vw;
+      height: 1.5rem;
+      margin: 5px;
+      border-style: groove;
+      box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.03);
+      font-size: 1rem;
+      color: #5c5f66;
+      font-weight: 400;
+      border-radius: 5px;
+      border-style: none;
+      padding-left: 10px;
+      &::-webkit-input-placeholder {
+        color: #5c5f666b;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+ }
+ &-codeEvent {
+  padding-top: 0.5rem;
+  color: #5c5f66;
+  background-color: #f6f6f6;
+  width: 80vw;
+  max-width: 110rem;
+  margin: 0 auto;
+  input {
+    width: 45vw;
+    max-width: 70vw;
+    height: 1.5rem;
+    margin: 5px;
+    border-style: groove;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.03);
+    font-size: 1rem;
+    color: #5c5f66;
+    font-weight: 400;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    &::-webkit-input-placeholder {
+      color: #5c5f666b;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+ }
+ &-codeType {
+  padding-top: 0.5rem;
+  color: #5c5f66;
+  background-color: #f6f6f6;
+  width: 80vw;
+  max-width: 110rem;
+  margin: 0 auto;
+  select {
+    width: 38vw;
+    max-width: 51.5rem;
+    height: 1.5em;
+    margin: 5px;
+    border-style: groove;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.03);
+    font-size: 1rem;
+    color: #5c5f66;
+    background-color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    &:focus {
+      outline: none;
+    }
+  }
+ }
+  &-codeisOnOff {
+    padding-top: 0.5rem;
+    color: #5c5f66;
+    background-color: #f6f6f6;
+    width: 80vw;
+    max-width: 110rem;
+    margin: 0 atuo;
+    margin: 0 auto;
+    textarea {
+      width: 77vw;
+      max-width: 104rem;
+      height: 5rem;
+      margin: 5px;
+      border-style: groove;
+      box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.03) !important;
+      font-size: 1rem;
+      color: #5c5f66;
+      font-weight: 400;
+      border-radius: 5px;
+      border-style: none;
+      padding-left: 10px;
+      display: block;
+      outline: none;
+      resize: none;
+    }
+  }
+  &-daliyMaximumUsing {
+    padding-top: 0.5rem;
+    color: #5c5f66;
+    background-color: #f6f6f6;
+    width: 80vw;
+    max-width: 110rem;
+    margin: 0 auto;
+    textarea {
+      width: 77vw;
+      max-width: 104rem;
+      height: 5rem;
+      margin: 5px;
+      border-style: groove;
+      box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.03) !important;
+      font-size: 1rem;
+      color: #5c5f66;
+      font-weight: 400;
+      border-radius: 5px;
+      border-style: none;
+      padding-left: 10px;
+      resize: none;
+      outline: none;
+    }
+  }
+  &-ButtonWrapper {
+    padding-top: 0.5rem;
+    color: #5c5f66;
+    background-color: #f6f6f6;
+    width: 80vw;
+    max-width: 110rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    // padding-bottom: 2rem;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: center;
+    &-button {
+      margin-top: 2.5rem;
+      margin-bottom: 4rem;
+      width: 15rem;
+      height: 6rem;
+      line-height: 6rem;
+      border-radius: 5px;
+      color: #0c5582;
+      font-size: 2rem;
+      border-style: none;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      &:hover {
+        transform: translateY(-7px);
+        background-color: #0c5582;
+        box-shadow: 0px 15px 20px rgba(5, 13, 77, 0.728);
+        color: #f2f2f2;
+      }
+    }
+  }
+}
