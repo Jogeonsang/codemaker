@@ -1,5 +1,5 @@
-import apod from "./apod/reducer";
+import codemaker from "./codemaker/reducer";
 
 export default {
-    apod,
+    codemaker,
 }

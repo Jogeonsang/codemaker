@@ -7,13 +7,11 @@ const cx = classNames.bind(style);
 const moduleName = "CodeMaker";
 
 class CodeMaker extends Component {
-  state = {
-    name : "",
-    event : "",
-    type : "",
-    isOnOff : "",
-    daliyMaximumUsing : "",
-  }
+  
+    hanldeSubmitData = () => {
+      
+    }
+   
   render() {
     return (
       <div>
@@ -76,7 +74,7 @@ class CodeMaker extends Component {
               <textarea
                 type="text"
                 name="daliyMaximumUsing"
-                placeholder="ex) 해당 쿠폰을 하루 몇번 사용 가능한지 정의해주세요 "
+                placeholder="ex) 해당 쿠폰이 하루 몇번 사용 가능한지 정의해주세요 "
                 required
               />
             </label>

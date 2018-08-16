@@ -8,7 +8,8 @@ import rootSaga from './sagas';
   no-underscore-dangle: "off"
 */
 
-export default function createNewStore() {
+export default function createNewStore(history) {
+
   const sagaMiddleware = createSagaMiddleware();
   const store = createStore(
     combineReducers({
@@ -22,7 +23,6 @@ export default function createNewStore() {
         : f => f
     )
   );
-
 
   sagaMiddleware.run(rootSaga);
 
